@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+body {
+    background: url('./image1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 85vh;
+    width: 100vw;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.options > #category, #difficulty {
+    font-size: 1.5rem;
+}
+#start {
+    text-align: center;
+}
+#start button {
+    font-size: 1.5rem;
+}
+label {
+    font-size: 1.5rem;
+}
